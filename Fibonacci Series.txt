@@ -1,0 +1,26 @@
+Fibonacci Series
+
+Source Code
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Enter Range: ");
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int ini=0,corress=1;
+        for(int i=0;i<=a;i++){
+            System.out.print(ini+" ");
+            int add=ini+corress;
+           ini=corress;
+           corress=add;
+        }
+    }
+}
+
+Output
+
+Enter Range: 
+6
+0 1 1 2 3 5 8 
+=== Code Execution Successful ===
