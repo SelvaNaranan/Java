@@ -1,0 +1,62 @@
+Marksheet of Student
+
+Source Code
+
+import java.util.*;
+class Marksheet {
+    public static void main(String[]args){
+        System.out.println("ENTER NAME: ");
+        Scanner name=new Scanner(System.in);
+        String na = name.nextLine();
+        System.out.println("ENTER STANDARD: ");
+        Scanner standard=new Scanner(System.in);
+        int ag = standard.nextInt();
+        System.out.println("ENTER REG No: ");
+        Scanner regno=new Scanner(System.in);
+        int reg = regno.nextInt();
+        System.out.println("Marks of Subjects ");
+        System.out.println("ENGLISH: ");
+        Scanner eng=new Scanner(System.in);
+        int p = eng.nextInt();
+        System.out.println("SCIENCE: ");
+        Scanner sci=new Scanner(System.in);
+        int acc = sci.nextInt();
+        System.out.println("MATH: ");
+        Scanner math=new Scanner(System.in);
+        int ma = math.nextInt();
+    System.out.println( na);
+    System.out.println(ag);
+    System.out.println("Marks of Subjects ");
+    System.out.println( p);
+    System.out.println( acc);
+    System.out.println( ma);
+    int avg =(p+acc+ma)/3;
+    System.out.println("Average of Marks; "+avg);
+    }
+}
+
+
+Output
+
+ENTER NAME: 
+RAM
+ENTER STANDARD: 
+5
+ENTER REG No: 
+123
+Marks of Subjects 
+ENGLISH: 
+57
+SCIENCE: 
+89
+MATH: 
+65
+
+
+RAM
+5
+Marks of Subjects 
+57
+89
+65
+Average of Marks: 70

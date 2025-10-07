@@ -1,0 +1,59 @@
+Details Printing
+
+Source Code   
+
+import java.util.*;
+class Details {
+    public static void main(String[]args){
+        System.out.println("ENTER NAME: ");
+        Scanner name=new Scanner(System.in);
+        String na = name.nextLine();
+        System.out.println("ENTER AGE: ");
+        Scanner age=new Scanner(System.in);
+        int ag = age.nextInt();
+        System.out.println("ENTER PHONE NO: ");
+        Scanner phn=new Scanner(System.in);
+        long p = phn.nextLong();
+        System.out.println("ENTER Acc No: ");
+        Scanner accno=new Scanner(System.in);
+        long acc = accno.nextLong();
+        System.out.println("ENTER REG No: ");
+        Scanner regno=new Scanner(System.in);
+        long reg = regno.nextLong();
+        System.out.println("ENTER Working Hours: ");
+        Scanner woh=new Scanner(System.in);
+        int wh = woh.nextInt();
+    System.out.println( na);
+    System.out.println(ag);
+    System.out.println( p);
+    System.out.println( acc);
+    System.out.println( reg);
+    System.out.println( wh);
+ 
+    }
+}
+
+Output
+
+ENTER NAME: 
+RAM
+ENTER AGE: 
+26
+ENTER PHONE NO: 
+95283 80223
+ENTER Acc No: 
+123456789
+ENTER REG No: 
+24610
+ENTER Working Hours: 
+12
+
+
+RAM
+26
+95283
+123456789
+24610
+12
+
+=== Code Execution Successful ===

@@ -1,0 +1,33 @@
+ODD EVEN PROGRAM
+Source code
+
+import java.util.*;
+class Eveodd {
+    public static void main(String[] args) {
+        System.out.println("Enter a number: ");
+        Scanner num = new Scanner(System.in);
+        int a = num.nextInt();
+        if(a%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+    }
+}
+
+
+
+Output
+
+Enter a number: 
+65
+Odd
+
+=== Code Execution Successful ===
+
+Enter a number: 
+64
+Even
+
+=== Code Execution Successful ===
